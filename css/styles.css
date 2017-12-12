@@ -1,0 +1,171 @@
+body{
+	font-family: 'Roboto', serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+
+nav, nav-wrapper{
+	background: #0b173b;
+	box-shadow: none;
+}
+
+.brand-logo {
+	height: 52px;
+	margin: 2px auto;
+	padding: 2px;
+	border: none;
+	font-size: 1.5rem !important
+}
+
+.logo{
+	border: none;
+	width: 52px;
+	height: 52px;
+	font-family: 'Cinzel', serif;
+	background: #fff;
+}
+
+.logoInterno {
+	background: #0B173B;
+	color: #fff;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	text-align: center;
+}
+
+.logoInterno p{
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a:hover{
+	background: #0b173b; 
+	font-size: 1.05rem;
+	font-weight: 500;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+.afterNav{
+	padding: 20px 0px;
+}
+
+.socialBlock ul{
+	margin: 0;
+	padding: 0;
+}
+
+.socialBlock ul li{
+	display: inline-block;
+	border-right: solid 1px #ddd;
+	padding: 0px 10px;
+	margin: 0;
+}
+
+.socialBlock ul li a{
+	color: #6E6E6E;
+	margin: 0;
+}
+
+.socialBlock ul li a:hover .fa-facebook {
+	color: #3b5998 ;
+	font-size: 18px;
+}
+.socialBlock ul li a:hover .fa-twitter {
+	color: #55acee ;
+	font-size: 18px;
+}
+.socialBlock ul li a:hover .fa-google-plus {
+	color: #dd4b39 ;
+	font-size: 18px;
+}
+.socialBlock ul li a:hover .fa-linkedin {
+	color: #007bb5 ;
+	font-size: 18px;
+}
+
+.carousel-item{
+	position: relative;
+}
+
+.carousel-item a{
+	bottom: -190px;
+}
+
+.barraCampus{
+	text-align: center;
+}
+
+.barraCampus .col{
+	margin-top: 15px;
+}
+
+.barraClub{
+	text-align: center;
+}
+
+.barraClub .btn{
+	border-radius: 10px;
+}
+
+#linkCampus {
+	font-weight: bold;
+}
+
+#linkCampus:hover{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+footer .row p{
+	font-size: 10px;
+}
+
+footer ul{
+	font-size: 13px;
+}
+
+/*Móviles en horizontal o tablets en vertical*/
+
+@media (min-width: 600px){
+	.logo{
+		border: solid 1px #000000;
+		height: 100px;
+		width: 100px;
+		font-family: 'Cinzel', serif;
+	}
+
+	.logoInterno p{
+		display: block;
+		width: 100%;
+		font-size: 20px;
+	}
+
+}
+
+/*Tablets en horizontal y Escritorios normales */
+
+@media (min-width: 992px) {
+	.barraClub{
+		text-align: right;
+	}
+
+	.barraClub{
+		text-align: right;
+	}
+}
+
+
+/*Escritorios muy anchos*/
+
+@media (min-width: 1200px) {
+
+}
