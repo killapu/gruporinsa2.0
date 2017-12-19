@@ -130,6 +130,10 @@ main{
 	/*margin-bottom: 50px;*/
 }
 
+.pinned{
+	position: fixed !important;
+}
+
 footer .row p{
 	font-size: 10px;
 }
